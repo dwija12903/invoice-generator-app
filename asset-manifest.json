@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/invoice-generator-app/static/css/main.fc003e1a.css",
+    "main.js": "/invoice-generator-app/static/js/main.20905d26.js",
+    "static/media/logo-main.png": "/invoice-generator-app/static/media/logo-main.bfab7d1bff3f8a6ce59f.png",
+    "index.html": "/invoice-generator-app/index.html",
+    "main.fc003e1a.css.map": "/invoice-generator-app/static/css/main.fc003e1a.css.map",
+    "main.20905d26.js.map": "/invoice-generator-app/static/js/main.20905d26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc003e1a.css",
+    "static/js/main.20905d26.js"
+  ]
+}
