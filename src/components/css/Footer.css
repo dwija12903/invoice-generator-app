@@ -1,0 +1,13 @@
+@media print {
+    #main {
+        font-size: small;
+        width: 10.1cm;
+        border-bottom: 1px solid black;
+    }
+    #main-bank{
+        height: 2.2cm;
+        font-size: small;
+        width: 6.5cm;
+        border-bottom: 1px solid black;
+    }
+}

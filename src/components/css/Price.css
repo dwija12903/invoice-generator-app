@@ -1,0 +1,69 @@
+@media print {
+    #details {
+      height: 3cm;
+      width: 7.15cm;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+  
+    #gstin {
+      height: 0.5cm;
+      width: 7.15cm;
+      font-size: small;
+      padding: 0;
+      margin: 0;
+      border-bottom: 1px solid black;
+      box-sizing: border-box;
+    }
+  
+    #amount-in-words {
+      height: 2.5cm;
+      width: 7.15cm;
+      font-size: small;
+      padding: 0;
+      margin: 0;
+      border-bottom: 1px solid black;
+      box-sizing: border-box;
+    }
+  
+    #price-col {
+      width: 7.1cm;
+      font-size: small;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+  
+    #price {
+      width: 3cm;
+      font-size: small;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    
+    #price-col-gujarat{
+      width: 7.1cm;
+      height: (3cm / 6);
+      font-size: x-small;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+
+    }
+
+    #price-gujarat {
+      width: 3cm;
+      height: (3cm / 6);
+      font-size: x-small;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .hidden-print {
+      display: none;
+    }
+  }
+  

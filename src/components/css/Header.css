@@ -1,0 +1,36 @@
+@media print {
+    #header {
+      display: flex;
+      height: 1.7cm;
+    }
+    #invoice-section {
+      width: 11cm;
+      height: 1.7cm;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #table-section {
+      flex: 1;
+      border: 0px;
+    }
+    table {
+      border-collapse: collapse;
+      height: 1.7cm;
+    }
+    td {
+      text-align: center;
+      padding: 0;
+      height: 0.5cm;
+    }
+    td:first-child {
+      width: 1cm;
+    }
+    td:nth-child(2) {
+      width: 4cm;
+      font-size: small;
+    }
+    td {
+      font-size: xx-small;
+    }
+}

@@ -1,0 +1,54 @@
+@media print {
+    #product-table {
+        width: 100%;
+        height: 4.5cm; 
+        border-collapse: collapse;
+        border-top: 1px solid black; 
+        table-layout: fixed; 
+    }
+    #sr-no, #product-name, #hsn-code, #qty, #rate, #total {
+        height: 0.3cm; 
+        font-size: small;
+        border-top: 1px solid black; 
+        padding: 0;
+        text-align: center;
+        margin: 0; 
+    }
+    #sr-no {
+        width: 1cm !important;
+    }
+    #product-name {
+        width: 5cm !important; 
+    }
+    #hsn-code {
+        width: 2cm !important; 
+    }
+    #qty {
+        width: 2cm !important; 
+    }
+    #rate {
+        width: 2cm !important; 
+    }
+    #total {
+        width: 2.5cm !important; 
+    }
+    #row-product-name{
+        text-align: left;
+        text-transform: uppercase;
+        padding: 0;
+        margin: 0;
+    }
+    tbody td {
+        padding: 0;
+        margin: 0;
+        font-size: small;
+        text-align: center; 
+    }
+    .overflow-x-auto {
+        overflow: visible;
+    }
+    .hidden-print {
+        display: none;
+    }
+}
+  

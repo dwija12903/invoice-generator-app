@@ -1,0 +1,38 @@
+@media print {
+  #details-section {
+      width: 9.5cm;
+      height: 2.5cm;
+      overflow: hidden;
+      padding: 0;
+      font-size: small;
+  }
+  #state-details {
+      height: 0.55cm;
+      font-size: small;
+  }
+  #column-main {
+      height: 1cm;
+      width: 7.1cm;
+      font-size: small;
+      padding: 0;
+  }
+  #last-column {
+      height: 1cm;
+      width: 2.5cm;
+      font-size: small;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  #ModeOfTransport{
+    font-size: x-small;
+  }
+  .flex.border-b {
+      border-bottom: 1px solid black;
+  }
+  .flex.border-r {
+      border-right: 1px solid black;
+  }
+  .hidden-print {
+      display: none;
+  }
+}
