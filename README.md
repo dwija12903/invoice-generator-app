@@ -1,8 +1,6 @@
-# 🚀 Invoice Generator App
+# 🚀 BillGen: Invoice Generator App
 
 An intuitive and dynamic Invoice Generator App built using **React**. This app enables users to create, preview, and print professional invoices seamlessly, with customizable fields for consignees, buyers, products, and bank details.
-
----
 
 ## 🌟 Features
 
@@ -12,8 +10,6 @@ An intuitive and dynamic Invoice Generator App built using **React**. This app e
 - **💸 Total Calculations**: Built-in pricing calculations, including subtotal, taxes, packing charges, etc.
 - **🖨️ Print-Ready**: Integrated with `react-to-print` to allow easy printing or saving invoices as PDFs.
 - **✅ Invoice Copy Selector**: Select and print different invoice copies (e.g., original for buyer, duplicate for transporter).
-
----
 
 ## 🛠️ Project Structure
 
@@ -39,8 +35,6 @@ This app follows a clean and modular architecture, ensuring easy maintenance and
 └── README.md            # Project documentation
 ```
 
----
-
 ## 🧩 Key Components
 
 ### `App.js`
@@ -64,8 +58,6 @@ This app follows a clean and modular architecture, ensuring easy maintenance and
 ### `Footer.js`
 - **Bank Details**: Displays bank details for transactions and ensures the footer is consistent across all invoice copies.
 
----
-
 ## 📦 Installation
 
 ### Prerequisites
@@ -79,7 +71,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/invoice-generator-app.git
+   git clone https://github.com/dwija12903/invoice-generator-app.git
    cd invoice-generator-app
    ```
 
@@ -98,8 +90,6 @@ Ensure you have the following installed:
    http://localhost:3000
    ```
 
----
-
 ## 🛡️ Future Enhancements
 
 While the app is feature-complete, here are some potential improvements:
@@ -109,18 +99,7 @@ While the app is feature-complete, here are some potential improvements:
 - **Database Integration**: Save and retrieve previous invoices from a backend.
 - **Multi-language Support**: Add options for generating invoices in multiple languages.
 
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🎯 Conclusion
-
 This Invoice Generator App is a robust and user-friendly solution for creating invoices quickly and professionally. Built with **React**, it ensures flexibility, and scalability and provides a seamless experience for managing invoicing needs.
 
-Feel free to reach out if you have any questions or suggestions!
-
-💡 **Happy Invoicing!**
+💡 **Happy Invoicing!** [Visit Website](https://dwija12903.github.io/invoice-generator-app/)
